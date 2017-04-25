@@ -1,0 +1,74 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.footer {
+  background-image: url(asset-path('footer.jpg'));
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0;
+  color: white;
+}
+
+.home1 {
+  height: calc(100vh);
+}
+
+.home-top{
+  height: 100vh;
+  background: url(asset-path('background1.jpg')) no-repeat center center;
+  background-size: cover ;
+  margin-top: -150px;
+}
+
+
+.navbar {
+  margin-bottom: 0px;
+  box-shadow: 1px 1px rgba(233, 233, 233, 0.57);
+}
+
+.view-port {
+  padding-top: 150px;
+  height: 100vh;
+}
+
+.small-text {
+  font-weight: lighter;
+  font-size: 0.7em;
+  font-style: italic;
+  float: right;
+  margin-top: 5px;
+}
+
+.margin-top-5 {
+  margin-top: 5px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.form-control {
+  margin: 5px 0;
+}
+
+.form-label {
+  margin: 5px 0;
+}
+
+.btn-big {
+  height: 50px;
+}
+
+.btn-upload-center {
+  position: absolute;
+  left:45%;
+  top:47%;
+  height: 10vh;
+  width: 10vw;
+  font-size: 4vh;
+  padding-top: 2vh;
+}
+
+.text-white {
+  color: white;
+}
